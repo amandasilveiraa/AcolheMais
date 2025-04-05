@@ -7,11 +7,11 @@ import { GlobalStyle, LinkStyle } from '../../StyledGlobal.js';
 function Home () {
     return (
         <>
+        
         <Background>
              <Header></Header>
              <LinkStyle to='/register'>Vai pro cadastro</LinkStyle>
         </Background>
-        
         </>
         
     );
