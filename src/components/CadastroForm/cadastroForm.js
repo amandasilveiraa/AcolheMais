@@ -8,6 +8,7 @@ import { FormTamanho } from "../../pages/register/register.jsx";
 import { Input } from "../../pages/register/register.jsx";
 import { Botao } from "../../pages/register/register.jsx";
 import { Linha } from "../../pages/register/register.jsx";
+import { LinkStyle } from "../../pages/register/register.jsx";
 
 export const CadastroForm = () => {
     return (
@@ -55,7 +56,7 @@ export const CadastroForm = () => {
                     <Input type="password" placeholder="Digite sua senha"></Input>
                 </CampoForm>
                 
-                <Botao type="submit">Entrar</Botao>
+                <LinkStyle to='/'><Botao type="submit">Entrar</Botao></LinkStyle>
             </Formulario>
 
         </FormTamanho>
