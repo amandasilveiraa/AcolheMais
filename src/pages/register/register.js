@@ -26,7 +26,7 @@ export const Register = () => {
                     <Logo src={imgLogo}></Logo>
                     <Titulo>Crie sua conta</Titulo>
                     <Subtitulo>Complete esses simples passos para se registrar</Subtitulo>
-                    <LinkStyle to='/'>Vai pro home</LinkStyle>
+                    
                 </Esquerda>
                 <Direita>
                     <CadastroForm></CadastroForm>
