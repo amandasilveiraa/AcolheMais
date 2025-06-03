@@ -27,3 +27,9 @@ export const LinkStyle = styled(Link)`
   color: black;
   font-weight: 600;
 `
+
+export const Main = styled.main`
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+`
