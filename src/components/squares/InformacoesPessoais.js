@@ -10,23 +10,25 @@ import logout from "../../assets/LogoutIcon.svg"
 
 export const Container = styled.div`
     width: 65vw;
-    background-color:rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
     margin: 30px;
+    @media (max-width: 768px) {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
 
 `
 
 export const TextoGrande = styled.h2`
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 18px;
 `
 
 export const DivElemento = styled.div`
     width: 100%;
-    background-color: rgb(195, 161, 161);
     margin: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -36,7 +38,6 @@ export const DivElemento = styled.div`
 export const Elemento = styled.div`
     border-radius: 20px;
     border: 1px solid black;
-    background-color: white;
     height: 12vh;
     display: flex;
     justify-content: space-between;
@@ -52,10 +53,10 @@ const IconeRight = styled.img`
     height: 40px;
 `
 
-export const HisoricoMedico = () => {
+export const InformacoesPessoais = () => {
     return (
         <Container>
-            <TextoGrande>Histórico médico</TextoGrande>
+            <TextoGrande>Informações pessoais</TextoGrande>
             <DivElemento>
                 <Elemento>
                     <DivTextLeft>

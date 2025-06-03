@@ -24,9 +24,9 @@ export function Header () {
             <BlocoHeader>
                 <HeaderImgLogo src={logo}/>
                 <NavBar>
-                    <StyledNavLink href="#">DASHBOARD</StyledNavLink>
+                    <StyledNavLink href="#" to="/">DASHBOARD</StyledNavLink>
                     <StyledNavLink href="#">ACOLHIDOS</StyledNavLink>
-                    <StyledNavLink href="#">ESTOQUE</StyledNavLink>
+                    <StyledNavLink href="#" to="/estoque">ESTOQUE</StyledNavLink>
                     <StyledNavLink href="#">DOCUMENTAÇÃO</StyledNavLink>
                 </NavBar>
                 <DivIcons>
@@ -35,9 +35,9 @@ export function Header () {
                 </DivIcons>
             </BlocoHeader>
             <NavBarRes visible={menu}>
-                <StyledNavLink href="#">DASHBOARD</StyledNavLink>
+                <StyledNavLink href="#" to="/">DASHBOARD</StyledNavLink>
                 <StyledNavLink href="#">ACOLHIDOS</StyledNavLink>
-                <StyledNavLink href="#">ESTOQUE</StyledNavLink>
+                <StyledNavLink href="#" to="/estoque">ESTOQUE</StyledNavLink>
                 <StyledNavLink href="#">DOCUMENTAÇÃO</StyledNavLink>
             </NavBarRes>
         </HeaderBar>

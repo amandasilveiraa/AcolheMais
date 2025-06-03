@@ -7,13 +7,12 @@ export const ContainerTitulo = styled.div`
     margin: 0 auto;
     height: 4vh;
     justify-content: space-between;
-    background-color:rgb(255, 255, 255);
     padding: 7px;
     border-radius: 10px;
 `
 export const TextoPerfil = styled.h2`
     font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
 `
 
 

@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const Background = styled.div`
-    background-color: #f8f8f2;
+    // background-color: #f8f8f2;
     width: 100%;
     min-height: 100vh;
 `
